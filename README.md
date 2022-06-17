@@ -31,8 +31,8 @@ http://127.0.0.1:8000/?format=json
 $ python manage.py startapp base
 
 ### Create Models
-$ python manage.py makemigrations
-$ python manage.py migrate
+$ python manage.py makemigrations\
+$ python manage.py migrate\
 $ python manage.py shell
 > from base.models import Project\
 > Project.objects.create(name = "Project 1")\
