@@ -42,3 +42,9 @@ $ python manage.py shell
 > print(projects)\
 > exit()
 
+# Final APIs
+1. list - GET http://127.0.0.1:8000/api/project/
+2. add - POST http://127.0.0.1:8000/api/project/add
+3. get - GET http://127.0.0.1:8000/api/project/2
+4. update - PUT http://127.0.0.1:8000/api/project/2
+5. delete - DELETE http://127.0.0.1:8000/api/project/2
